@@ -1,0 +1,333 @@
+/*   
+Theme Name: TRAINING PAGE
+Theme URI: http://training.com/create
+Description: Blank wordpress theme
+Author: Kamjula
+Author URI: https://github.com/kotireddyk
+Version: 1
+*/
+
+body 
+{
+	background-color: #ffffff;
+	height: 1823px;
+	margin-top: 0px !important;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1280px;
+}
+
+@font-face
+{
+	font-family: gothamHF;
+	src:url('Gotham/GothamHTF-Book.otf');
+}
+
+#menu
+{
+	background-color: #95ba33;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+
+}
+
+#menu ul, #quick-buttons, .connect-us ul
+{
+	text-align: center;
+	padding: 0px !important;
+}
+
+#menu ul 
+{
+	line-height: 30px;
+	margin: 0px !important;
+
+}
+
+#menu li 
+{
+	display: inline;
+	font-family: gothamHF;
+	font-size: 12px;
+	margin-right: 12px;
+	margin-left: 12px;
+	color: #333333;
+}
+
+#menu a
+{
+	text-decoration:none;
+	color: #333333 !important;
+}
+
+#subbtn
+{
+	border: 0px !important;
+	background-color: #333333;
+	color: #ffffff;
+	float: right;
+	font-family: DroidSerif;
+	font-size: 13px;
+	height: 30px;
+	width: 137px;
+	margin-left: -272px;
+	margin-right: 131px;
+}
+
+#logo
+{
+
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 200px;
+}
+
+#tagline
+{
+	float: right;
+	font-size: 26px;
+	font-family: gothamHTF;
+	font-weight: medium;
+	color: #ae70b2;
+	margin-top: 2px;
+	margin-right: 147px;
+	margin-bottom: 8px;
+}
+
+#hr, #hr1, #hr2
+{
+	height: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+#hr 
+{
+	clear: both;
+	background-color: #ae70b2;
+}
+
+#body
+{
+	float: left;
+	clear: both;
+	width: 582px;
+}
+
+#logo1
+{
+
+	height: 247px;
+	margin-top: 100px;
+	margin-left: 188px;
+	width: 350px;
+}
+
+#bird 
+{
+	background: url('../img/bird.png') no-repeat center center;
+	height: 85px;
+	margin-top: 70px;
+	margin-left: 155px;
+	width: 107px;
+   
+}
+
+#subhed1
+{
+	background-color: #ffb656;
+	
+	margin-top: 12px;
+	padding-right: 15px;
+	width: 567px;
+}
+
+#subhed1, #txt3, #txt4, #txt5, #txt6
+{
+direction: rtl;
+}
+
+#txt3, #txt5, #txt6
+{
+	color: #4d4d4d;
+	font-family: "Lato";
+	font-size: 16px;
+	margin-left: 147px;
+}
+
+#txt4, #txt6 span
+{
+	color: #ffb657;
+	font-family: "GothamHTF-Book";
+	font-size: 18px;
+	margin-left: 147px;
+}
+
+#body1
+{
+	float: right;
+	width: 666px;
+}
+
+#subhed, #subhed1
+{
+    color: #ffffff;
+	font-family:"Lato";
+	font-size:26px;
+	font-weight: bold;
+	line-height: 41px;
+	height: 41px;
+}
+
+#subhed
+{
+	margin-left: 32px;
+	margin-top: 52px; 
+	background-color: #ad6fb1;
+	padding-left: 25px;
+}
+
+#centxt, #txt, #txt1, #txt2
+{
+    margin-right: 147px;
+	padding-left: 57px;
+}
+
+#centxt
+{
+	color: #ae70b2;
+	text-align: center;
+	font-family: "Lato";
+	font-size: 20px;
+}
+
+#txt, #txt2 
+{
+	color: #4d4d4d;
+	font-family: "Lato";
+	font-size: 16px;
+}
+
+#txt1
+{
+	color: #ae70b2;
+	font-family: "Lato";
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#circle
+{
+	background-color: #ffb656;
+	border: 3px solid #ad6fb1;
+	border-radius: 50%;
+	font-family: "Lato";
+	color: #4d4d4d;
+	font-size: 14px;
+	height: 177px;
+	margin-top: -15px;
+	padding: 60px;
+	text-align: center;
+	width: 177px;
+}
+
+#circle a
+{
+	text-decoration: none;
+	color: #4d4d4d !important;
+}
+
+#imgcir img
+{
+	width: 52px;
+	height: 45px;
+	margin-left: 67px;
+}
+
+#imgcir
+{
+	margin-top: 55px;
+    margin-left: 157px;
+}
+
+#footer
+{
+	clear: both;
+	padding-top: 41px;
+}
+
+#quick-buttons
+{
+	margin-top: 39px;
+	margin-bottom: 0px !important;
+}
+
+#quick-buttons li 
+{
+	display: inline;
+	margin-right: 2px;
+}
+
+#hr1
+{
+	margin-top: 50px;
+}
+
+#hr2, #hr1
+{
+	background-color: #959595;
+}
+
+#quick-links
+{
+	height: 29px;
+	line-height: 29px;
+	margin: 0px !important;
+	padding-left: 140px; 
+}
+
+#quick-links li 
+{
+	color: #96bb33;
+	display: inline;
+	font-family: "gothamHTF" medium;
+	font-size: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+#quick-links a
+{
+	text-decoration: none;
+	color: #96bb33;
+}
+
+#kmm
+{
+	margin-left: 499px !important;
+}
+
+.right a, #kmm a
+{
+	color: #b4533c !important;
+}
+
+.connect-us
+{
+	color: #969696;
+	font-family: "gothamHTF" medium;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 21px;
+}
+
+.connect-us li 
+{
+	display: inline;
+	margin-right: 6px;
+}
+
